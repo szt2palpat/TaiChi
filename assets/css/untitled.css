@@ -22,4 +22,9 @@
 header{
   background: repeating-linear-gradient(#008000 1%, rgb(0,128,0) 44%, white 100%)!important;
 }
+#work{
 
+}
+body{
+  width: 100vw !important;
+}

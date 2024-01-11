@@ -56,3 +56,12 @@ h3{
   text-align: center;
   padding:1em;
 }
+#link{
+  text-align: center;
+  text-decoration: none !important;
+  color: white !important;
+}
+#link:visited,#link:hover,#link:focus,#link:active{
+  text-decoration: none !important;
+  color: white !important;
+}

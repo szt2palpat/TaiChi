@@ -28,3 +28,31 @@ header{
 body{
   width: 100vw !important;
 }
+.cim{
+  text-align: center;
+}
+div{
+  text-align: justify;
+}
+h2{
+  text-align: center;
+  padding: 1em;
+}
+img{
+text-align: center !important;
+}
+#egs{
+  background-color: green;
+  color:white;
+}
+#reg{
+  padding-top: 0 !important;
+  margin-bottom: 1em;
+}
+#Health{
+  padding-top: 1em !important;
+}
+h3{
+  text-align: center;
+  padding:1em;
+}

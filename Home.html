@@ -9,39 +9,49 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;display=swap">
-    <link rel="stylesheet" href="assets/css/button.css.css">
+
     <link rel="stylesheet" href="assets/css/untitled.css">
 </head>
 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+
+</script>
 <body>
-<nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-custom navbar-dark">
+<nav id="nav" class="navbar navbar-expand-lg fixed-top bg-dark navbar-custom navbar-dark navbar-wrapper">
     <div class="container"><a class="navbar-brand" href="#">Wu Tai Chi Chuan</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarResponsive"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"></li>
                 <li class="nav-item"></li>
-                <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="width: 162px;">Tai Chi</a>
-                    <div class="dropdown-menu"><a class="dropdown-item" href="#work">Működése</a><a class="dropdown-item" href="#Health">Egészség</a><a class="dropdown-item" href="#Body">Helyes testtartás</a><a class="dropdown-item" href="#Breath">Helyes légzés</a></div>
+                <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="" style="width: 162px;">Tai Chi</a>
+                    <div class="dropdown-menu"><a class="dropdown-item" href="Home.html#work">Működése</a>
+                        <a class="dropdown-item" href="Home.html#Health">Egészség</a>
+                        <a class="dropdown-item" href="Home.html#Body">Helyes testtartás</a>
+                        <a class="dropdown-item" href="Home.html#Breath">Helyes légzés</a>
+                    </div>
                 </li>
-                <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="width: 162.4px;">Történelem</a>
-                    <div class="dropdown-menu"><a class="dropdown-item" href="#Tai">Tai chi</a><a class="dropdown-item" href="#Fam">Családfa</a></div>
+                <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="Tortenelem.html" style="width: 162.4px;">Történelem</a>
+                    <div class="dropdown-menu"><a class="dropdown-item" href="Tortenelem.html#Tai">Tai chi</a>
+                        <a class="dropdown-item" href="Tortenelem.html#Fam">Családfa</a>
+                        <a class="dropdown-item" href="Tortenelem.html#school">Iskola</a></div>
                 </li>
-                <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="position: static;display: block;font-size: 13.8px;width: 129.1px;">Rólunk</a>
-                    <div class="dropdown-menu"><a class="dropdown-item" href="#">Mester</a><a class="dropdown-item" href="#">Iskola</a></div>
+                <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="About.html" target="_blank" style="position: static;display: block;font-size: 13.8px;width: 129.1px;">Rólunk</a>
+                    <div class="dropdown-menu"><a class="dropdown-item" href="About.html#master">Mester</a>
+                        <a class="dropdown-item" href="About.html#school">Iskola</a></div>
                 </li>
             </ul>
-            <ul class="navbar-nav">
-                <li class="nav-item"></li>
-                <li class="nav-item"></li>
-                <li class="nav-item"></li>
-            </ul>
+
+
         </div>
     </div>
 </nav>
 <header class="text-center text-white masthead" style="--bs-body-bg: #000000;--bs-danger: #000000;--bs-danger-rgb: 0,0,0;--bs-primary: #000000;--bs-primary-rgb: 0,0,0;--bs-secondary: #000000;--bs-secondary-rgb: 0,0,0;background: repeating-linear-gradient(black 0%, rgb(109,109,109) 53%, white);">
     <div class="masthead-content">
         <div class="container" style="text-align: center">
-            <h2 id="home" class="masthead-subheading mb-0">Wu Stílusú Tai Chi Chuan</h2><a class="btn btn-primary btn-xl rounded-pill mt-5" role="button" href="#Train" style="color: rgb(255,255,255);background: rgb(0,0,0);border-color: rgb(255,255,255); text-align: ce">Edzések</a>
+            <h2 id="home" class="masthead-subheading mb-0">Wu Stílusú Tai Chi Chuan</h2><a class="btn btn-primary btn-xl rounded-pill mt-5" role="button" href="#Train" style="color: rgb(255,255,255);background: rgb(0,0,0);border-color: rgb(255,255,255); text-align: center">Edzések</a>
         </div>
     </div>
 </header>
@@ -60,7 +70,7 @@
                     </div>
             </div>
         </div>
-    </div>
+
 </section>
 <section>
     <div class="container">
@@ -78,7 +88,7 @@
     </div>
 </section>
 
-<section id="egs">
+<section class="egs">
 
     <h1 id="Health" class="cim">A Tai Chi Chuan hatása
 
@@ -166,7 +176,7 @@
 
 <section id="Body">
 <div class="container">
-    <div>
+    <div >
         <h2>A helyes tartás</h2>
 
 
@@ -217,10 +227,11 @@
         <p>A gyökerezés során az elme használata fokozottan szükséges. A gyökerezés, a talp három pontján keresztül történik. Olyan érzést kell létre hoznunk, mintha a nagylábujj alatti ujjpárnán keresztül, a kislábujj alatti párnán keresztül és a sarok középpontján keresztül odaszegeznénk a lábunkat  talajhoz. Különösen e három ponton kell éreznünk, hogy a talpunk oda préselődik a talajhoz, a talpon lévő Yung Chuan pontnál pedig mintegy boltív keletkezik, és itt szívjuk fel a talajból a földi Chít, amit azután továbbítunk a test többi részébe is.
 
         Nagyon fontos, hogy ezt a tartást ne csak az alapállás során használjuk, hanem folyamatosan tartsuk fenn a gyakorlás során.</p>
+        <br>
     </div>
 </div>
 </section>
-<section id="egs" >
+<section class="egs" >
     <div  class="container">
         <div>
 <h2 id="Breath">A légzés és a helyes tartás</h2>
@@ -250,6 +261,7 @@
 
                     Normál légzés esetén a belégzésnél a has megemelkedik (kidudorodik, illetve kiemelkedik). Felnőtt korban ez az általánosan elterjedt, és használt légzés fajta. Tulajdonképpen a szervezetünk erre állt rá, és ez jó is így.
                     A fordított légzés "bizonyos esetekben" ugyanolyan természetes, mint a normál légzés. Például a csecsemő születése után, még kb. 4-6 órán át fordított légzést használ, és amikor sír, akkor is gyakori, hogy ehhez a légzéshez tér vissza. Óva intenem kell azonban mindenkit attól, hogy csak úgy, hipp - hopp megpróbáljon áttérni a fordított légzésre, mondjuk Tai Chi, vagy Chí Kung gyakorlás közben. Ha ugyanis a szervezete még nincs erre felkészülve, akkor igen csak sok komoly kárt tehet az energia keringésében.</p>
+                    <br>
                 </div>
             </div>
         </div>

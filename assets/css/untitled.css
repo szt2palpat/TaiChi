@@ -36,12 +36,12 @@ div{
 }
 h2{
   text-align: center;
-  padding: 1em;
+  padding: 2em;
 }
 img{
 text-align: center !important;
 }
-#egs{
+.egs{
   background-color: green;
   color:white;
 }
@@ -54,7 +54,7 @@ text-align: center !important;
 }
 h3{
   text-align: center;
-  padding:1em;
+  padding:2em;
 }
 #link{
   text-align: center;
@@ -65,3 +65,55 @@ h3{
   text-decoration: none !important;
   color: white !important;
 }
+.dropdown:hover>.dropdown-menu{
+  display: block !important;
+}
+.dropdown>.dropdown-toggle:active{
+  pointer-events: none !important;
+
+}
+.navbar-light .navbar-nav .nav-link {
+  text-transform: uppercase !important;
+  text-align: center !important;
+  font-size: 13px!important;
+  text-decoration: none!important;
+  background: white!important;
+  color: black!important;
+  transition: 0.3s ease!important;
+  border-top: 4px solid #FFFFFF!important;
+  border-bottom: 4px solid #FFFFFF!important;
+  padding: 20px 0!important;
+  margin: 0 20px!important;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+  border-top: 4px solid #000000!important;
+  border-bottom: 4px solid #000000!important;
+  padding: 6px 0px!important;
+  background: #11ADE8!important;
+}
+#Body{
+  width: 100vw;
+}
+
+
+
+section{
+  margin-top: 10px!important;
+}
+html {
+  scroll-behavior: smooth!important;
+}
+.kep{
+  height:350px;
+  width: 200px;
+
+
+}
+#ksz{
+  text-align:center !important;
+  padding-top:610px !important;
+  padding-left:300px !important;
+}
+

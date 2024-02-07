@@ -19,14 +19,13 @@
 .dropdown-item:active {
   background-color: green!important;
 }
-header{
-  background: repeating-linear-gradient(#008000 1%, rgb(0,128,0) 44%, white 100%)!important;
-}
+
 #work{
 
 }
 body{
   width: 100vw !important;
+
 }
 .cim{
   text-align: center;
@@ -37,6 +36,7 @@ div{
 h2{
   text-align: center;
   padding: 2em;
+
 }
 img{
 text-align: center !important;
@@ -65,13 +65,7 @@ h3{
   text-decoration: none !important;
   color: white !important;
 }
-.dropdown:hover>.dropdown-menu{
-  display: block !important;
-}
-.dropdown>.dropdown-toggle:active{
-  pointer-events: none !important;
 
-}
 .navbar-light .navbar-nav .nav-link {
   text-transform: uppercase !important;
   text-align: center !important;
@@ -90,11 +84,12 @@ h3{
 .navbar-light .navbar-nav .nav-link:hover {
   border-top: 4px solid #000000!important;
   border-bottom: 4px solid #000000!important;
-  padding: 6px 0px!important;
+  padding: 6px !important;
   background: #11ADE8!important;
 }
-#Body{
+#test{
   width: 100vw;
+
 }
 
 
@@ -106,14 +101,118 @@ html {
   scroll-behavior: smooth!important;
 }
 .kep{
-  height:350px;
-  width: 200px;
+  height:450px;
+  width: 250px;
 
 
 }
-#ksz{
-  text-align:center !important;
-  padding-top:610px !important;
-  padding-left:300px !important;
+
+.kep2{
+  height:450px;
+  width: 300px;
+
+}
+hr{
+  border: 5px solid green;
+  border-radius: 20px;
+  opacity: 100!important;
+
 }
 
+
+.card {
+  width: max-content;
+  text-align: center !important;
+  margin: 0.1em;
+  border: 3px solid black !important;
+}
+#harom{
+  text-align: center;
+width: max-content;
+  height: fit-content;
+}
+.card div{
+  text-align-all: center;
+  padding: 1em;
+}
+
+@media(device-width: 1200px) {
+
+  .dropdown:hover > .dropdown-menu {
+    display: block !important;
+  }
+
+  .dropdown > .dropdown-toggle:active {
+    pointer-events: none !important;
+
+  }
+}
+#svG{
+  width: 100vw;
+  height: max-content;
+
+
+}
+.svg-container{
+  background-color: green;
+}
+.mester{
+  width: 20em;
+  height: 25em;
+}
+#school {
+  background-color: green !important;
+  color: white !important;
+
+}
+header.masthead{
+  background-image: url("../img/Dsc00506.jpg")  !important;
+  height: 100vh;
+
+
+}
+#home{
+  font: 800 60px Arial;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.kepke{
+  width: 30vw;
+  height: 60vh;
+
+}
+.parallax{
+
+  height: 60vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover ;
+
+  @media only screen and(max-device-width: 1366px) {
+    .parallax{
+      background-attachment: scroll;
+    }
+
+  }
+}
+section>.container{
+  padding: 1em;
+}
+.cim{
+  text-align: center;
+  vertical-align: center;
+  font-size: 24pt;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.flag{
+  width: 60px;
+  height: 30px;
+}
